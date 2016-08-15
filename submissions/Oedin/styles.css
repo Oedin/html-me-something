@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Arial',serif;
+    background-color:darkgray;
+}
+.nav{
+    background-color:cadetblue;
+    color:#ffffff;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.nav li{
+    display: inline-block;
+    padding-right: 20px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+.nav li a:hover{
+    color:#c1c1c1;
+}
+
+#edin{
+    background-image:url(images/background.jpg);
+    height:500px;
+    width:100%;
+    
+}
+#edin header {
+    text-align: center;
+    padding-top: 150px;
+}
+#edin header h1{
+    color:#c1c1c1;
+    font-weight: bold;
+    
+}
+#edin header p{
+    color:ghostwhite;
+    font-weight:100;
+    font-size: 20px;
+    
+}
+#edin header p a{
+    text-decoration: none;
+    color:ghostwhite;
+}
+#edin header p a:hover{
+    color:cadetblue;
+    
+}
+
+#about{
+    height: 300px;
+    width:100%;
+    
+}
+#about section h1{
+    padding-left:70px;
+}
+#about section{
+    margin:20px;
+  
+}
+#about section p{
+    margin-left:20px;
+}
+#about section img{
+    float:left;
+    width:150px;
+    height: 200px;
+}
+#projects h1{
+    padding-left: 100px;
+}
+#project img{
+    
+    height:500px;
+    width:100%;
+    
+}
+
+#contact{
+    height: 300px;
+    width:100%;
+}
+
+#contact section {
+    float: left;
+    padding-left: 100px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: lightslategray;
+    
+}
